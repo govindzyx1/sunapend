@@ -1,0 +1,12 @@
+var body = request.content.asXML;
+//print(body);
+//print(body.Add.a);
+context.setVariable("target", body.target);
+//print(body.Add.target);
+var v = context.getVariable('target');
+print(v);
+//print(body.Add);
+//context.setVariable("response", body.Add.response);
+//print(body.Add.target);
+//var v1 = context.getVariable('response');
+//print(v1);

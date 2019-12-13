@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="XmlEndPoint">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response>
+            <Step>
+                <Name>XmToJson</Name>
+                <Condition>(response.header.Content-type = "application/xml") and (response = "xml")</Condition>
+            </Step>
+        </Response>
+    </PostFlow>
+    <Flows/>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>http://www.mocky.io/v2/5cb592b9330000f5175d7bfe</URL>
+    </HTTPTargetConnection>
+</TargetEndpoint>

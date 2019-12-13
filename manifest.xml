@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="JsonJs" version="SHA-512:1ed1c8c55411f52e89a615030a72295c89ffb3720e21555ed315dfe57d37f9e09f69f0b76c177a49adb9c34fe5e0c782155dd900005d27db61098b6ba0d368f6"/>
+        <VersionInfo resourceName="JsonToXml" version="SHA-512:5196da203000db02bf59ed735943bbbb93c1217c2d19c61c1fbbce002749c290dab06848d61941928c42947ba4441e2e5d3d85bb5a0aa3f533aa2137ba205440"/>
+        <VersionInfo resourceName="JsonToXmlJs" version="SHA-512:fe0a47479b257c8c2c2880ea66521620b22d86fa4529092e5faa569145ee6be66420c6171f1c3fbfa55590c4e4a6154a089b71d8369a7c5d1194e52d8c48b00a"/>
+        <VersionInfo resourceName="XmToJson" version="SHA-512:a10acb9da7dd06d60df503a945c117d1c2a08920ce916cd32ba95c879819ec8e8b8fed3c39b47d983fe648b952244b318c4343f7fa74a12a1d85ffff41131824"/>
+        <VersionInfo resourceName="XmlJs" version="SHA-512:8f213011c8800739bbf80b18c55a207c2c88714bd059e1b0b44469bcc4cc1a787dcbc1a58da6f135fba173f72e94cb8a6ba1622a0fd9f6ffb23df2ca15b4227e"/>
+        <VersionInfo resourceName="XmlToJsonJs" version="SHA-512:e1797dba06b9332b8062f1b46af5a5ed761e95bd1c6ce4ee02e95a0cf084ed8a01dca328388b44069dc4469154bdc949a3f06da9529153ca4db6b6a7edfca3e5"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:25e3db84c68849ace4cfd9ccc5ba555da7259bb2ab8ac8cb073ff84b9f7090aa9255f35387c5bc32c71c9c704e4f8778df869bf341bb1ea96b49aa928fba8a25"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript-1.js" version="SHA-512:7737bebe4d956fa2bd1e75de41a2a886c365974f6e1e24d25bece09d25b499e1c4aec32c8feff5e30fe30e699ca0f49a6240e9eb2a0efbffc3e0a464074a5f6e"/>
+        <VersionInfo resourceName="jsc://JsonToXmlJs.js" version="SHA-512:90a5976e037f66378b02242d3b819947f3807dc183f431cb7c5f1524dc7f80de52231d58fdedbd8160b24e79ad50158c6a32496089a929df14e5bd9305ae7822"/>
+        <VersionInfo resourceName="jsc://XmlJs.js" version="SHA-512:443deda160416c7b2fd02d8054833bc0ec88f136a9668860975218c783c0dfce4d3196b8f83ac7169eacc6d3822ad6e075a06fa787467e2dbb2f6a49edb93e94"/>
+        <VersionInfo resourceName="jsc://XmlToJsonJs.js" version="SHA-512:6e7b7391565cd4083d92aa8d49ebf034f576be1d0dbef42dc6f5434f9393a96ccb24d0b93446735e4224b10a3fce3fc8e7858fc4d68f52d66733f34a5bb4c0f5"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="JsonEndPoint" version="SHA-512:c2d999cbada6a859951d38542543e1e6db90c7d36498c96728ec7bbb1f36e12fdf5cbb1c3426a6907b658e1bb9c114a0e6cd9b557f00f8f2640f4328e840dfee"/>
+        <VersionInfo resourceName="XmlEndPoint" version="SHA-512:2421be696bf24e09245c9b8251dd3367a8844afeebc973cd93fbda9ca290995b6d232dc269691f3a705b8f31de4333012511dacdae80801d73abad456b690743"/>
+    </TargetEndpoints>
+</Manifest>
